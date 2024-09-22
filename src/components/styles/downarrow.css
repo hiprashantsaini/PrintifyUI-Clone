@@ -1,0 +1,42 @@
+.downarrow-container{
+    height: 8vw;
+    width: 100%;
+    background-color: rgb(238, 237, 237);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.down-arrow{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    border-left: 8vw solid transparent;
+    border-right: 8vw solid transparent;
+    border-top: 8vw solid #fff;
+}
+
+
+    /* Responsive media query for smaller devices */
+    @media (max-width: 768px) {
+        .downarrow-container{
+            height: 10vw;
+        }
+        .arrow-down {
+          border-left: 20vw solid transparent;
+          border-right: 20vw solid transparent;
+          border-top: 20vw solid green;
+        }
+      }
+  
+      @media (max-width: 480px) {
+        .downarrow-container{
+            height: 15vw;
+        }
+        .arrow-down {
+          border-left: 30vw solid transparent;
+          border-right: 30vw solid transparent;
+          border-top: 30vw solid green;
+        }
+      }

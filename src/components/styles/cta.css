@@ -1,0 +1,61 @@
+.cta {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #32b84b;
+    color: white;
+  }
+  
+  .cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-start,
+  .cta-learn {
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-start {
+    background-color: white;
+    color: #32b84b;
+    border: 2px solid white;
+  }
+  
+  .cta-learn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .cta-start:hover,
+  .cta-learn:hover {
+    background-color: white;
+    color: #32b84b;
+  }
+  
+  @media (max-width: 768px) {
+    .cta-buttons {
+      flex-direction: column;
+    }
+  
+    .cta-start,
+    .cta-learn {
+      width: 100%;
+    }
+  }
+  

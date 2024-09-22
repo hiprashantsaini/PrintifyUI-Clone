@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app{
+  max-width: 1400px;
+  margin: auto;
+}
+
+div button{
+  font-weight: bold;
+}
+
+
+

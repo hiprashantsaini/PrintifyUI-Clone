@@ -1,0 +1,99 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #f8f8f8;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-content-div {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-content-div p{
+  display: flex;
+  align-items: center;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.cta-btn,
+.learn-btn {
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.cta-btn {
+  background-color: #32b84b;
+  color: white;
+}
+
+.learn-btn {
+  background-color: transparent;
+  color: #32b84b;
+  border: 2px solid #32b84b;
+}
+
+.cta-btn:hover {
+  background-color: #28a745;
+}
+
+.learn-btn:hover {
+  background-color: #32b84b;
+  color: white;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .cta-btn,
+  .learn-btn {
+    padding: 10px 30px;
+  }
+}
